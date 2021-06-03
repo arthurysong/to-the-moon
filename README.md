@@ -20,4 +20,5 @@ lets do 80 20 split training / test
 nn
 
 # TODOS
-* re-organize util functions using oop?
+* re-organize util functions using oop? nah.
+* use octave scripts to learn params
