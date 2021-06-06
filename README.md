@@ -26,6 +26,10 @@ nn
   1. Train Theta using small epochs and for all values of lambda [0, 0.001, 0.003, 0.01]...
   2. using cross validation set choose lambda with lowest cost.
 
+* with normalization the results were worse with .12 & .14 accuracy on train and test...
+* trying with min-max scaling instead
+
+
 # TODOS
 * re-organize util functions using oop? nah.
 * use octave scripts to learn params
