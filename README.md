@@ -19,6 +19,13 @@ architecture 240 300 300 1
 lets do 80 20 split training / test
 nn
 
+# First training set with 50 epochs and 241 * 40 * 3 nodes was getting .27 accuracy on train and .29 on test
+* plan is to use normalization and mess around with lambda, also give more epochs?
+* get rid of some of the bad data...
+* according to ng notes lambda should be chosen using 0, 0.001, 0.003, 0.01, 0.03, 0.1 ... 10 using cross validation set
+  1. Train Theta using small epochs and for all values of lambda [0, 0.001, 0.003, 0.01]...
+  2. using cross validation set choose lambda with lowest cost.
+
 # TODOS
 * re-organize util functions using oop? nah.
 * use octave scripts to learn params

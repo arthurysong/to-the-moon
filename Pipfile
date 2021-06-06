@@ -8,6 +8,8 @@ fetch = "python3 ./scripts/fetch.py"
 td = "python3 ./scripts/transform_raw_data.py"
 p = "python3 ./scripts/plot_raw.py"
 ps = "python3 ./scripts/plot_nn_sets.py"
+learn = "octave ./octave/learn.m"
+test = "octave ./octave/test.m"
 
 [packages]
 pprintpp = "*"
