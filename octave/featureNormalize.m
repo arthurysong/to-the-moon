@@ -13,5 +13,5 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 
 
 % min-max scaling
-X_norm = (X - min(X)) ./ (max(X) - min(X))
+X_norm = (X - min(X)) ./ (max(X) - min(X));
 end
